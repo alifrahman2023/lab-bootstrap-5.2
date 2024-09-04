@@ -1,1 +1,30 @@
 /* Add custom css styles here */
+header {
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/coffee-biscuits.jpg'); /* Path to your image */
+}
+footer {
+    background-color: #056dfd;
+    color: white;
+}
+#About-us {
+    background-color: #f8f9fa;
+}
+
+.slightly-bold{
+    font-weight: 550;
+}
+
+.intro{
+    display: grid;
+    place-items: center;
+    color: white;
+    max-width: 800px;
+    background-color: #1a2424bb;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: #00000044;
+    margin: 0 auto;
+}
